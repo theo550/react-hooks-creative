@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.input {
+  height: 30px;
+  margin: 10px 0;
+}
+
+.btn-primary {
+  background-color: #0D6EFD;
+  border: none;
+  color: white;
+  width: 100px;
+  margin: 0 auto;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-danger {
+  background-color: #DC3545;
+  border: none;
+  color: white;
+  width: 100px;
+  margin: 0 auto;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0e5bce;
+}

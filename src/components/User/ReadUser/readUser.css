@@ -1,0 +1,31 @@
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid black;
+  height: 50px;
+}
+
+td {
+  width: 150px;
+  text-align: left;
+}
+
+th {
+  width: 150px;
+  text-align: left;
+}
+
+.btn-action {
+  background-color: #fff;
+  border: 1px solid rgb(145, 145, 145);
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.btn-action:hover {
+  background-color: rgb(238, 238, 238);
+}
